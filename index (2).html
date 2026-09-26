@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Care Don't Carry Co.</title>
+  <meta name="description" content="Contact Care Don't Carry Co. about products, orders, collaborations, or the reminder list.">
+  <link rel="stylesheet" href="/assets/theme.css">
+  <script src="https://cdn.moda.app/runtime-libs/tailwind-browser-4.1.13-index.global.min.js"></script>
+</head>
+<body>
+  <header class="border-b border-black/10 bg-[var(--cream)]">
+    <div class="max-w-[1000px] mx-auto px-6 h-[72px] flex items-center justify-between">
+      <a href="/" class="display text-[1.1rem]">Care Don't Carry Co.</a>
+      <nav class="flex gap-6 text-[0.88rem]"><a href="/shop" class="nav-link">Shop</a><a href="/manifesto" class="nav-link">Manifesto</a></nav>
+    </div>
+  </header>
+  <main class="py-20 sm:py-28">
+    <div class="max-w-[760px] mx-auto px-6">
+      <p class="eyebrow text-[var(--ink-muted)] mb-5">Contact</p>
+      <h1 class="text-[2.5rem] sm:text-[3.5rem]">What can we help with?</h1>
+      <p class="mt-5 text-[var(--ink-muted)]">For an existing Printify order, use the support information in your confirmation email. For product questions, partnerships, or anything else, send a note here.</p>
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/?sent=true" class="mt-10 space-y-5">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden"><label>Do not fill this out: <input name="bot-field"></label></p>
+        <div><label for="name" class="eyebrow block mb-2">Name</label><input id="name" name="name" type="text" autocomplete="name" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></div>
+        <div><label for="contact-email" class="eyebrow block mb-2">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></div>
+        <div><label for="message" class="eyebrow block mb-2">Message</label><textarea id="message" name="message" rows="6" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></textarea></div>
+        <button type="submit" class="btn btn-solid">Send message</button>
+      </form>
+      <p class="mt-7 text-[0.9rem] text-[var(--ink-muted)]">Prefer email? <a class="underline" href="mailto:elevateemsolutions@gmail.com?subject=Care%20Don't%20Carry%20Co.">elevateemsolutions@gmail.com</a></p>
+    </div>
+  </main>
+  <footer class="bg-[var(--charcoal)] text-[var(--cream)]/70 py-10"><div class="max-w-[1000px] mx-auto px-6 flex flex-wrap gap-6 justify-between"><p>© 2026 Care Don't Carry Co.</p><nav class="flex gap-5"><a href="/shipping-returns">Shipping &amp; returns</a><a href="/privacy">Privacy</a></nav></div></footer>
+  <script src="/assets/main.js"></script>
+</body>
+</html>
