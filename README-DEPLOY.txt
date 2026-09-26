@@ -1,4 +1,3 @@
-[README-DEPLOY.txt](https://github.com/user-attachments/files/32683140/README-DEPLOY.txt)
 CARE DON'T CARRY CO. — NETLIFY DEPLOYMENT
 
 1. In Netlify, open the site you want to use.
