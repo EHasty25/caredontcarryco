@@ -1,0 +1,40 @@
+CARE DON'T CARRY CO. — FLAGSHIP & STORY UPDATE
+Combined review package • October 7, 2026
+
+WHAT CHANGED
+- Home hero now leads with the actual green/cream flagship product photo and a direct purchase button to Printify. The remaining hats stay lower on the page.
+- Manifesto now contains Emily's complete approved personal story, including the wearer/message-travels ending and signature. The home page has a short signed excerpt linking to it.
+- The Arena Changes cap has been removed from both product lists and scrolling copy. Collection wording is count-free. Five product cards remain, representing four sayings.
+- Brown remains alongside green in the collection, with its out-of-stock note. Its last verified Printify option is Natural / Walnut.
+- The optional product/restock signup copy, required consent, unsubscribe/contact options, and Printify order-support routing remain in place. No cadence, welcome sequence, personal check-ins, or early-access promise is introduced.
+- The product route /product/31799018 redirects to its existing Printify product page.
+
+UPLOAD FOR REVIEW
+1. Extract this ZIP. It contains eight changed repository files at their existing paths, plus these instructions. It is not a complete deployable website.
+2. Open https://github.com/EHasty25/caredontcarryco and create a new branch from main, such as flagship-story-review. Do not upload directly to main if the site auto-deploys from main.
+3. Add or replace the eight files listed below on that branch, preserving all folder paths. Do not upload the ZIP itself or this instructions file as the website. Leave other repository files in place.
+4. Commit the files and open a draft pull request into main. Review the diff and any available deploy preview before merging.
+
+FILES TO ADD OR REPLACE
+index.html
+shop/index.html
+manifesto/index.html
+contact/index.html
+privacy/index.html
+_redirects
+README-DEPLOY.txt
+images/care-dont-carry-natural-forest.jpg
+
+CHECK BEFORE LAUNCH
+- Preview desktop and mobile: the green/cream cap should lead the home page, the main purchase button should open the matching Printify product, and the rest of the collection should appear lower down.
+- Read the manifesto and home excerpt. Confirm the Arena Changes cap is absent.
+- Check remaining product links, the collection anchor, and the /product/31799018 redirect.
+- Recheck the $34.63 product price and Natural / Walnut stock status on Printify. Website price and stock labels are static, not a live feed.
+- Printify's product description previously described walnut despite its green selected image; review that description separately.
+- Confirm the reminder-list and contact forms are detected by Netlify and test their submissions. Signup collection alone does not send email. Before mailing, configure and test delivery/unsubscribe handling and retain consent records.
+
+VERIFICATION
+Passed: exact comparison of all eight approved story paragraphs; flagship-only hero photo, high-priority image loading, direct purchase link, lower collection order, signed story excerpt/link, Arena reference removal, preservation of the remaining products/brown listing, and unchanged low-maintenance signup section.
+All six HTML pages passed local path/anchor, unique-ID, and cadence/editorial-promise scans. Required form consent, controls, identifiers, and unsubscribe/contact language are preserved. Product-image bytes, redirect configuration, JavaScript syntax, git whitespace, ZIP paths, and exact ZIP file contents passed.
+Not verified: rendered desktop/mobile layout, live form submissions, or deployed redirect. Rendering remains unverified due to the earlier environment blocker.
+Remote main was rechecked at a4e02c5360c560c77543328496187df36be77efa before editing. GitHub publishing remains blocked by its integration permissions; no remote branch or pull request was created and nothing was deployed. No Printify products or marketing automations were changed.
