@@ -4,11 +4,11 @@ This folder is a complete static website for `caredontcarryco.com`. It is ready 
 
 ## What changed
 
-- One flagship product replaces the five-product catalog posture.
+- The flagship leads, with the three supporting hat designs presented as one coherent collection.
 - Big Bear and the Wedge anchor the campaign story.
 - The established DM Sans / Libre Baskerville brand system and approved color palette are used throughout.
 - The manifesto is preserved word-for-word.
-- Every purchase button links to the live Printify product.
+- Every purchase button links to the correct live Printify product.
 - Existing Netlify email and contact forms remain in place.
 - Mobile navigation, SEO metadata, accessibility basics, redirects, a sitemap, and security headers are included.
 
@@ -20,7 +20,7 @@ This folder is a complete static website for `caredontcarryco.com`. It is ready 
 4. Drag the **contents** of this folder into the upload area. Upload `index.html`, the folders, and the other root files—not the enclosing `care-dont-carry-rebuild` folder.
 5. Let GitHub replace files with matching names, then commit directly to `main` with a message such as `Launch Big Bear and Wedge flagship site`.
 6. Netlify should deploy the commit automatically. In Netlify, confirm that the production publish directory is the repository root (`.`).
-7. Open `https://caredontcarryco.com` in a private browser window and test the home page, shop page, one product button, email form, contact form, and mobile menu.
+7. Open `https://caredontcarryco.com` in a private browser window and test the home page, shop page, all four product buttons, email form, contact form, and mobile menu.
 
 ## Add social accounts
 
