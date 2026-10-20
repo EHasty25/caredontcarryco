@@ -3,37 +3,110 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy — Care Don't Carry Co.</title>
-  <meta name="description" content="Privacy information for Care Don't Carry Co. website visitors and email subscribers.">
-  <link rel="canonical" href="https://caredontcarryco.com/privacy/">
-  <meta name="theme-color" content="#121b38">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/theme.css">
-  <script>document.documentElement.classList.add("js");</script>
-  <script defer src="/assets/site-config.js"></script>
-  <script defer src="/assets/main.js"></script>
+  <title>Our Places — Care Don't Carry Co.</title>
+  <meta name="description" content="Where Care Don't Carry reminders have traveled, told through real customer photographs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #f3eee4;
+      --paper: #fffdf8;
+      --navy: #0f1a3b;
+      --forest: #214d3b;
+      --red: #ce263c;
+      --ink: #151a2b;
+      --muted: #6e6a65;
+      --line: rgba(15,26,59,.14);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--cream); font-family: "DM Sans", sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1240px, calc(100% - 64px)); margin: 0 auto; }
+    .announcement { padding: 10px 20px; color: white; background: var(--forest); text-align: center; font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    header { border-bottom: 1px solid var(--line); background: rgba(243,238,228,.94); }
+    .nav { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; }
+    .brand-mark { width: 36px; height: 36px; display: grid; place-items: center; border: 2px solid var(--forest); border-radius: 50%; color: var(--forest); font-size: 12px; }
+    .nav-links { display: flex; align-items: center; gap: 30px; font-size: 14px; font-weight: 700; }
+    .button { display: inline-flex; align-items: center; justify-content: center; padding: 14px 22px; border-radius: 999px; font-weight: 800; }
+    .button-dark { color: white; background: var(--navy); }
+    main { min-height: calc(100vh - 148px); }
+    .intro { padding: 100px 0 66px; border-bottom: 1px solid var(--line); }
+    .eyebrow { margin: 0 0 22px; color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+    h1 { max-width: 890px; margin: 0; color: var(--navy); font-size: clamp(58px, 8vw, 116px); line-height: .9; letter-spacing: -.065em; }
+    .lede { max-width: 650px; margin: 34px 0 0; color: var(--muted); font-size: 20px; line-height: 1.65; }
+    .gallery-shell { padding: 64px 0 96px; }
+    .empty-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .empty-frame { min-height: 350px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,253,248,.66); }
+    .empty-frame span { color: var(--red); font-weight: 800; letter-spacing: .12em; }
+    .empty-frame p { max-width: 240px; margin: 0; color: var(--muted); line-height: 1.55; }
+    .invitation { margin-top: 18px; padding: 36px; display: flex; align-items: center; justify-content: space-between; gap: 30px; border-radius: 24px; color: white; background: var(--navy); }
+    .invitation h2 { margin: 0 0 8px; font-size: clamp(28px, 3vw, 44px); letter-spacing: -.04em; }
+    .invitation p { margin: 0; color: rgba(255,255,255,.72); }
+    .button-light { flex: 0 0 auto; color: var(--navy); background: var(--paper); }
+    footer { padding: 28px 0; color: rgba(255,255,255,.7); background: var(--navy); font-size: 13px; }
+    .footer-row { display: flex; justify-content: space-between; gap: 24px; }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 32px, 1240px); }
+      .nav { min-height: 70px; }
+      .nav-links a:not(.button) { display: none; }
+      .intro { padding: 72px 0 48px; }
+      .lede { font-size: 17px; }
+      .empty-grid { grid-template-columns: 1fr; }
+      .empty-frame { min-height: 230px; }
+      .invitation, .footer-row { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="announcement">Care deeply. Carry differently.</div>
-  <header class="site-header"><div class="container site-header__inner"><a class="brand" href="/"><span class="brand__mark" aria-hidden="true">C.</span><span>Care Don't Carry Co.</span></a><nav class="desktop-nav" aria-label="Main navigation"><a class="nav-link" href="/shop">Shop</a><a class="nav-link" href="/manifesto">Manifesto</a><a class="button button--navy button--small" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Get the cap</a></nav><button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Open menu" data-menu-button><span></span><span></span></button></div></header>
-  <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" data-mobile-nav><div class="container"><a href="/shop">Shop</a><a href="/manifesto">Manifesto</a><a href="/contact">Contact</a><a class="button button--navy" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Get the cap</a></div></nav>
-
-  <main class="utility-main" id="main">
-    <div class="narrow">
-      <p class="eyebrow">Privacy</p>
-      <h1>Your information stays in its place, too.</h1>
-      <p class="utility-intro">Last updated October 7, 2026</p>
-      <div class="legal-sections">
-        <section><h2>Information collected here</h2><p>If you sign up for shop updates or use the contact form, we collect the information you submit, such as your name, email address, and message. The forms are processed through the website host.</p></section>
-        <section><h2>How it is used</h2><p>If you opt in to shop updates, we may use your name and email address to send product and restock news. We also use submitted information to respond to messages, improve the website, and understand interest in Care Don't Carry Co. We do not sell subscriber information.</p></section>
-        <section><h2>Purchases</h2><p>Purchases take place on Printify. Printify and its payment providers collect the information needed to process payment, produce products, deliver orders, and provide customer support. Their privacy terms apply on those pages.</p></section>
-        <section><h2>Leaving the list</h2><p>You may unsubscribe from shop update emails at any time by replying with “unsubscribe” or contacting us through the website. Your address will be removed from future mailings.</p></section>
-        <section><h2>Questions</h2><p>Use the <a class="text-link" href="/contact">contact form</a> for privacy questions or requests concerning information submitted through this website.</p></section>
-      </div>
+  <div class="announcement">A customer-led gallery — coming soon</div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="Care Don't Carry Co. home">
+        <span class="brand-mark" aria-hidden="true">C.</span>
+        <span>Care Don't Carry Co.</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/#collection">Shop</a>
+        <a href="/manifesto/">Manifesto</a>
+        <a class="button button-dark" href="https://care-dont-carry-co.printify.me/" target="_blank" rel="noopener">Full storefront</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="wrap">
+        <p class="eyebrow">Our Places</p>
+        <h1>Where the message has traveled.</h1>
+        <p class="lede">This page will belong to the people who take the reminder with them. Real hats. Real places. Real lives beyond the job.</p>
+      </div>
+    </section>
+
+    <section class="gallery-shell" aria-label="Future customer photo gallery">
+      <div class="wrap">
+        <div class="empty-grid">
+          <article class="empty-frame"><span>01</span><p>A customer photograph will live here—with permission and credit.</p></article>
+          <article class="empty-frame"><span>02</span><p>Tagged social posts can become part of the brand story.</p></article>
+          <article class="empty-frame"><span>03</span><p>No stock locations. No invented community. We’ll build this honestly.</p></article>
+        </div>
+        <div class="invitation">
+          <div>
+            <h2>Take the reminder with you.</h2>
+            <p>Tag Care Don't Carry Co. when the social accounts go live for a chance to be featured.</p>
+          </div>
+          <a class="button button-light" href="/#collection">Choose your reminder</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="container site-footer__top"><div class="site-footer__brand"><strong>Care Don't Carry Co.</strong><p>For people who care deeply and are learning what not to carry.</p></div><nav class="site-footer__links" aria-label="Footer navigation"><a href="/shop">Shop</a><a href="/manifesto">Manifesto</a><a href="/contact">Contact</a><a href="/shipping-returns">Shipping &amp; returns</a><a href="/privacy">Privacy</a><a data-store-link href="https://care-dont-carry-co.printify.me/">Printify store ↗</a></nav></div><div class="container site-footer__bottom"><span>© <span data-year>2026</span> Care Don't Carry Co.</span><span>Care deeply. Carry differently.</span></div></footer>
+  <footer>
+    <div class="wrap footer-row">
+      <strong>© 2026 Care Don't Carry Co.</strong>
+      <span>Built from real reminders in real places.</span>
+    </div>
+  </footer>
 </body>
 </html>
