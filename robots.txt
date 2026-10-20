@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caredontcarryco.com/sitemap.xml

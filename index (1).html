@@ -3,35 +3,114 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact — Care Don't Carry Co.</title>
-  <meta name="description" content="Contact Care Don't Carry Co. about products, orders, collaborations, or shop updates.">
+  <title>Shop the Cap — Care Don't Carry Co.</title>
+  <meta name="description" content="Shop the Care. Don't Carry. embroidered cotton cap for $35, made to order and fulfilled by Printify.">
+  <link rel="canonical" href="https://caredontcarryco.com/shop/">
+  <meta property="og:title" content="The Care. Don't Carry. Cap">
+  <meta property="og:description" content="One useful sentence, embroidered clearly. $35 and made to order.">
+  <meta property="og:image" content="https://caredontcarryco.com/images/navy-red-cap.jpg">
+  <meta name="theme-color" content="#121b38">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/theme.css">
-  <script src="https://cdn.moda.app/runtime-libs/tailwind-browser-4.1.13-index.global.min.js"></script>
+  <script>document.documentElement.classList.add("js");</script>
+  <script defer src="/assets/site-config.js"></script>
+  <script defer src="/assets/main.js"></script>
 </head>
 <body>
-  <header class="border-b border-black/10 bg-[var(--cream)]">
-    <div class="max-w-[1000px] mx-auto px-6 h-[72px] flex items-center justify-between">
-      <a href="/" class="display text-[1.1rem]">Care Don't Carry Co.</a>
-      <nav class="flex gap-6 text-[0.88rem]"><a href="/shop" class="nav-link">Shop</a><a href="/manifesto" class="nav-link">Manifesto</a></nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">One product. One reminder. Made to order.</div>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/" aria-label="Care Don't Carry Co. home"><span class="brand__mark" aria-hidden="true">C.</span><span>Care Don't Carry Co.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a class="nav-link" href="/shop" aria-current="page">Shop</a>
+        <a class="nav-link" href="/manifesto">Manifesto</a>
+        <a class="nav-link" href="/#places">Our places</a>
+        <a class="button button--navy button--small" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Get the cap</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Open menu" data-menu-button><span></span><span></span></button>
     </div>
   </header>
-  <main class="py-20 sm:py-28">
-    <div class="max-w-[760px] mx-auto px-6">
-      <p class="eyebrow text-[var(--ink-muted)] mb-5">Contact</p>
-      <h1 class="text-[2.5rem] sm:text-[3.5rem]">What can we help with?</h1>
-      <p class="mt-5 text-[var(--ink-muted)]">For an existing Printify order, use the support information in your confirmation email. For product questions, partnerships, or email preferences, use the form below.</p>
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/?sent=true" class="mt-10 space-y-5">
-        <input type="hidden" name="form-name" value="contact">
-        <p class="hidden"><label>Do not fill this out: <input name="bot-field"></label></p>
-        <div><label for="name" class="eyebrow block mb-2">Name</label><input id="name" name="name" type="text" autocomplete="name" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></div>
-        <div><label for="contact-email" class="eyebrow block mb-2">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></div>
-        <div><label for="message" class="eyebrow block mb-2">Message</label><textarea id="message" name="message" rows="6" required class="w-full rounded-xl border border-black/15 bg-white px-4 py-3"></textarea></div>
-        <button type="submit" class="btn btn-solid">Send message</button>
-      </form>
-      <p class="mt-7 text-[0.9rem] text-[var(--ink-muted)]">Prefer email? <a class="underline" href="mailto:elevateemsolutions@gmail.com?subject=Care%20Don't%20Carry%20Co.">elevateemsolutions@gmail.com</a></p>
-    </div>
+  <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" data-mobile-nav>
+    <div class="container"><a href="/shop">Shop</a><a href="/manifesto">Manifesto</a><a href="/#places">Our places</a><a href="/contact">Contact</a><a class="button button--navy" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Get the cap</a></div>
+  </nav>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">The flagship</p>
+        <h1>One cap. No filler.</h1>
+        <p>We stopped treating the shop like a catalog. This is the message—and the product—we believe in enough to lead with.</p>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container shop-layout">
+        <div class="shop-gallery reveal">
+          <figure><img src="/images/navy-red-cap.jpg" alt="Front view of the navy and red Care. Don't Carry. cap" width="1536" height="1024" fetchpriority="high"></figure>
+          <figure><img src="/images/forest-cap-big-bear.jpg" alt="Natural and forest Care. Don't Carry. cap overlooking Big Bear Lake" width="1536" height="1024" loading="lazy"></figure>
+          <figure><img src="/images/the-wedge-campaign.jpg" alt="Care. Don't Carry. cap worn at the Wedge in Newport Beach" width="1536" height="1024" loading="lazy"></figure>
+        </div>
+        <aside class="shop-summary reveal" aria-labelledby="product-title">
+          <p class="eyebrow">Care Don't Carry Co.</p>
+          <h2 id="product-title">Care. Don't Carry. Cap</h2>
+          <p class="editorial">The reminder that started it all.</p>
+          <p class="product-copy__price">$35</p>
+          <p class="product-copy__lede">A structured-front cotton cap with clear two-line embroidery. Built to hold its shape and made for the hours that belong to you.</p>
+          <div class="product-colors" aria-label="Examples of available color directions">
+            <span class="swatch swatch--navy" title="Navy and red"></span>
+            <span class="swatch swatch--forest" title="Natural and forest"></span>
+            <span class="swatch swatch--neutral" title="Neutral colorway"></span>
+            <span class="muted">Live options on Printify</span>
+          </div>
+          <ul class="product-meta">
+            <li><span>Construction</span><span>Mid-profile, structured front</span></li>
+            <li><span>Fabric</span><span>100% cotton</span></li>
+            <li><span>Closure</span><span>Adjustable snapback</span></li>
+            <li><span>Size</span><span>One size</span></li>
+            <li><span>Production</span><span>Made to order</span></li>
+          </ul>
+          <a class="button button--primary" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Choose color &amp; buy on Printify</a>
+          <p class="fine-print">You will finish your purchase on Printify, which handles payment, production, shipping, and order support.</p>
+          <div class="product-notice"><strong>A note on the images:</strong> these are campaign photographs designed around the real cap and embroidery. Use the live Printify listing to confirm the exact color, placement, and current availability before ordering.</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Why this one</p>
+          <h2>Understated enough to wear. Clear enough to travel.</h2>
+          <p>The idea only works if it looks like a cap you would reach for anyway. The message should meet people in real life—not shout at them from across the room.</p>
+        </div>
+        <div class="details-grid reveal">
+          <article class="detail-card"><h3>Holds its shape</h3><p>A structured front gives the embroidery a clean surface instead of collapsing when the cap is off your head.</p></article>
+          <article class="detail-card"><h3>Reads cleanly</h3><p>Two deliberate lines, enough contrast, and both periods. The punctuation is part of the design.</p></article>
+          <article class="detail-card"><h3>No inventory</h3><p>Each cap is produced after purchase and fulfilled through Printify, so the brand can launch without carrying stock.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--forest">
+      <div class="container statement reveal">
+        <p class="eyebrow">Wear the boundary</p>
+        <h2>Take the trip. Stay for the next set.</h2>
+        <p>The cap is the prompt. What you make room for is the point.</p>
+        <div class="hero__actions" style="justify-content:center">
+          <a class="button button--cream" data-product-link href="https://care-dont-carry-co.printify.me/product/31799018">Shop the cap · $35</a>
+          <a class="button button--outline" href="/manifesto">Read the manifesto</a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="bg-[var(--charcoal)] text-[var(--cream)]/70 py-10"><div class="max-w-[1000px] mx-auto px-6 flex flex-wrap gap-6 justify-between"><p>© 2026 Care Don't Carry Co.</p><nav class="flex gap-5"><a href="/shipping-returns">Shipping &amp; returns</a><a href="/privacy">Privacy</a></nav></div></footer>
-  <script src="/assets/main.js"></script>
+
+  <footer class="site-footer">
+    <div class="container site-footer__top">
+      <div class="site-footer__brand"><strong>Care Don't Carry Co.</strong><p>For people who care deeply and are learning what not to carry.</p><div class="social-links"><a data-social="instagram" hidden>Instagram</a><a data-social="facebook" hidden>Facebook</a><a data-social="tiktok" hidden>TikTok</a></div></div>
+      <nav class="site-footer__links" aria-label="Footer navigation"><a href="/shop">Shop</a><a href="/manifesto">Manifesto</a><a href="/contact">Contact</a><a href="/shipping-returns">Shipping &amp; returns</a><a href="/privacy">Privacy</a><a data-store-link href="https://care-dont-carry-co.printify.me/">Printify store ↗</a></nav>
+    </div>
+    <div class="container site-footer__bottom"><span>© <span data-year>2026</span> Care Don't Carry Co.</span><span>Care deeply. Carry differently.</span></div>
+  </footer>
 </body>
 </html>
